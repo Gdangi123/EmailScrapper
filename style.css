@@ -1,0 +1,75 @@
+
+
+/* Apply styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Style the center container */
+  .center {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the Scrape Email button */
+  #scrapeEmails {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+ 
+  /* Style individual list items (if needed) */
+  
+  
+  /* Add hover effect to the button */
+  #scrapeEmails:hover {
+    background-color: #0056b3;
+  }
+  /* Style the email list */
+#emailList {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  /* Style individual list items */
+  #emailList li {
+    margin: 5px 0;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Add a hover effect to list items */
+  #emailList li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Add some spacing and styling to the text inside list items */
+  #emailList li span {
+    margin-right: 10px;
+  }
+  
+  /* Style the "No emails found" message */
+  #emailList .no-emails {
+    color: #777;
+    font-style: italic;
+  }
+  
